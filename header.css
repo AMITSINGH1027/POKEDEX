@@ -1,0 +1,55 @@
+
+header:hover {
+    background: #58bde1;
+    height: 95px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 1px;
+    background-color: #9F8383;
+    color:  #191717 ;
+    height: 95px;
+    width: 100%;
+}
+
+.menu a:hover{
+    background: #58bde1 ;
+    color: #FFD700;
+    height: 110px;
+}
+
+.logo{
+    margin-right: 30px;
+    padding: 0px;
+
+}
+
+nav{
+    img{
+        float:left;
+        height: 74px;
+        margin-right: 0px;
+        padding-left: 20px;
+    }
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.menu a {
+    font-family: cursive;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    /* ex. cards news inke bich me gaph ke liyea h */
+    padding-right: 70px;   
+    padding-left: 0px;
+}
+
+

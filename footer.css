@@ -1,0 +1,38 @@
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    width: 100%;
+    height: 80px;
+}
+footer .socialIcons {
+    margin-bottom: 1rem;
+}
+
+footer:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    height: 80px;
+}
+
+a:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.socialIcons a{
+    /* icons ke bich ka gaph */
+    font-size: 20px;
+    margin: 20px;
+    transition: color 0.1s;
+}
+ .socialIcons:hover{
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+} 

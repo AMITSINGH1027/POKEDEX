@@ -1,0 +1,44 @@
+body{
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 0;
+}
+
+
+p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        unicode-bidi: isolate;
+}
+
+.page{
+        clear: both;
+        line-height: 1.45;
+        font-size: 20px;
+        text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: left;
+}
+
+.product {
+    background-color: rgb(248, 248, 248);
+    float: left;
+    text-align: start;
+    width: 200px;
+    border-radius: 0px;    
+    height: 100px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    /* text-align: end; */
+}
+
